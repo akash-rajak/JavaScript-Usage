@@ -4,7 +4,7 @@
 ****
 
 ### Usage Points:
-- create two file, `index.html` and `sketch.js`
+- create two file, `index.html` and `app.js`
 - run the html file using below command
 ```
 start index.html
