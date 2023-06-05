@@ -20,7 +20,7 @@ node type.js
 - Below is the output after running above command:
 
 ![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/c1c754a8-b0a7-46ef-926b-9239d35b066b)
-- Now we can run the `inde.html` file using the following command
+- Now we can run the `index.html` file using the following command
 ```
 start index.html
 ```
