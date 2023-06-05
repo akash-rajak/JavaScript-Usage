@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: lightyellow; /* Set the background color to light yellow */
+    }
+
+    h1 {
+      text-align: center; /* Center align the heading */
+      margin-top: 10px; /* Add a margin of 10px to the top */
+      margin-bottom: 0; /* Remove the margin from the bottom */
+    }
+
+    #sketch-container {
+      display: flex;
+      justify-content: center; /* Center align the sketch */
+      align-items: center; /* Vertically center align the sketch */
+      height: calc(100vh - 10px); /* Set the container height to full viewport height minus 10px */
+    }
+  </style>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <h1>p5.js Usage</h1> <!-- Add the heading -->
+
+  <div id="sketch-container"></div> <!-- Add a container div for the sketch -->
+
+  <script>
+    // Initialize the p5 sketch inside the sketch-container div
+    new p5(function (sketch) {
+      sketch.setup = function () {
+        var canvas = sketch.createCanvas(400, 400); // Create a square canvas with width and height of 400 pixels
+        canvas.parent('sketch-container'); // Attach the canvas to the sketch-container div
+      };
+
+      sketch.draw = function () {
+        sketch.background(220); // Set the background color to light gray
+
+        // Draw a circle at the mouse position
+        sketch.fill(255, 0, 0); // Set the fill color to red
+        sketch.ellipse(sketch.mouseX, sketch.mouseY, 50, 50); // Draw a circle at the mouse position with a diameter of 50 pixels
+      };
+    }, 'sketch-container');
+  </script>
+</body>
+</html>
