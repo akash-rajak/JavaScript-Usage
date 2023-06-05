@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lodash Example</title>
+  <style>
+    body {
+      background-color: lightyellow;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      text-align: center;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .button-container button {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Underscore.js Usage</h1>
+    <div class="button-container">
+      <button id="chunkButton">Chunk</button>
+      <button id="headButton">First</button>
+      <button id="lastButton">Last</button>
+      <button id="findButton">Find</button>
+      <button id="sortButton">Sort</button>
+      <button id="sumButton">Sum</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
