@@ -66,5 +66,11 @@ start index.html
 
 ****
 
+### Summary of code:
+- HTML code `index.html` provides the structure and user interface for the webpage, and the TypeScript code `type.ts` defines a function to print a string and executes that function with a specific string value. 
+- When the `Load TypeScript` button is clicked, the `type.js` file is dynamically loaded, which contains the compiled JavaScript version of the `type.ts` file. This results in the execution of the `printString()` function and the logging of the message `Function Called and loaded the typescript` to the console.
+
+****
+
 ### IMP Points:
 - 
