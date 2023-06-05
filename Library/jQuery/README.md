@@ -15,6 +15,12 @@
 ```
 start index.html
 ```
+- After running the command, the following thing we can see on the default browser.
+
+![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/71c297da-c0f4-4cfa-870e-ee46f01ea7c9)
+
+![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/98bc7baa-b729-44e9-bde5-624fbd45a263)
+
 
 ****
 
