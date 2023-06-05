@@ -1,4 +1,4 @@
-## ✔ TypeScript Usage
+# ✔ TypeScript Usage
 - Curated use of TypeScript Technology.
 
 ### Usage points:
