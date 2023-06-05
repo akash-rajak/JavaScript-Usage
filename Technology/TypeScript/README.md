@@ -1,14 +1,41 @@
 # ✔ TypeScript Usage
 - Curated use of TypeScript Technology.
 
-### Usage points:
-- After creating the `index.html` and `type.ts` file, we cannot start the HTML file or run the typescript file directly, because Typescript file cannot be interpreted by browser directly, so there is a need to compile it to a Javascript file.
-- In order to compile the Typescript file(.ts) file into a Javascript file(.js), first need to install the Typescript (tsc) using following command. Open CMD and run the below command
+****
+
+### TypeScript Installation:
+- Inorder to run the typescript(.ts) file, we need to install the typescript.
+- Run the following command in cmd(from window)
 ```
 npm install -g typescript
 ```
-- for reference in installing typescript : [LINK](https://stackoverflow.com/questions/12685995/cant-find-typescript-compiler-command-tsc-is-not-valid)
-- Now to we can compile the `type.ts` file using below command
+- Add the `npm path` to the `Environment Variables`.
+
+![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/1ff2385d-42c0-4300-8502-8f62c92bcc43)
+ 
+- After adding PATh to Environment Variables, try running the trypescrit(.ts) file, using below command in the code
+```
+tsc type.ts
+```
+- if this command gives below error regarding `Execution Policy` as below, then we need to change the `Execution Policy in our system`.
+
+![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/bbe01f3d-4aa2-461e-912a-93defc2d6893)
+
+- We can do this by running the following command in `Window PowerShell` by running as an Administrator.
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
+![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/8f7e883a-2d41-4719-a3ca-0fcfa1eb868c)
+
+- After doing this, when we try running the typescript file using the `tsc type.ts` command, it will run perfectly and generates the equivalent `type.js` file.
+- Reference : [LINK](https://stackoverflow.com/questions/58796490/tsc-ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system)
+
+****
+
+### Usage points:
+- After creating the `index.html` and `type.ts` file, we cannot start the HTML file or run the typescript file directly, because Typescript file cannot be interpreted by browser directly, so there is a need to compile it to a Javascript file.
+- Compile the `type.ts` file using below command
 ```
 tsc type.ts
 ```
@@ -37,7 +64,7 @@ start index.html
 
 ![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/f76e5c16-5e48-477f-9350-6a68451290cd)
 
-
+****
 
 ### IMP Points:
 - 
