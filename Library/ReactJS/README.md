@@ -4,7 +4,7 @@
 ****
 
 ### Usage Points:
-- Made the project `Pretty JSON Viewer` : pretty-json-viewer
+- Made the React App `Pretty JSON Viewer` using ReactJS Library : [pretty-json-viewer](https://github.com/akash-rajak/Pretty-JSON-Viewer)
 
 ****
 
