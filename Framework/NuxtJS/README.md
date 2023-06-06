@@ -17,6 +17,7 @@ npx nuxi init my-nuxt-app
 npm run dev -- -o
 ```
 - this will open the default browser with `nuxt app` running.
+- Reference : [LINK](https://www.geeksforgeeks.org/nuxtjs/)  [LINK](https://www.geeksforgeeks.org/how-to-install-and-creating-first-nuxt-js-app/)
 
 ![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/791fc7b4-ae29-4697-a206-288f73012cb6)
 
