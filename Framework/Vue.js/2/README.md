@@ -45,7 +45,7 @@ npm run serve
 ```
 - this will run the `Vue.js` App on below two browser as follows:
 
-![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/da60f8b3-2bb9-428c-9f7f-9bb8d45c1b3c)
+![image](https://github.com/akash-rajak/JavaScript-Usage/assets/57003737/c2c7f6ad-8670-44c7-9cb7-e469918af6c1)
 
 - Below is how the `Vue.js` App looks on both the browser
 
