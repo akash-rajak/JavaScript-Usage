@@ -47,7 +47,7 @@ npm run serve
 ****
 
 ### Summary of code:
-- Router basically handles the changing between the `about`, `home` or `profile` page on website.
+- Router basically handles the changing between the `about`, `home` or `profile` page on website, within `Single Page`.
 
 ****
 
